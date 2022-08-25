@@ -5,20 +5,15 @@ function compareTrue(valor1,valor2) {
  } return false
 }
 
-
 // Desafio 2
 function calcArea(base, height) {
   return (base * height)/2
 }
 
-
 // Desafio 3
 function splitSentence(frase) {
   return frase.split(' ')
 }
-
-
-
 
 // Desafio 4
 function concatName( array ) {
@@ -68,7 +63,7 @@ function fizzBuzz(array) {
   for( let index of array){
     if(index%3===0 && index%5===0){
       compactador.push('fizzBuzz');
-    }else if(index % 3===0){
+   }else if(index % 3===0){
       compactador.push('fizz');
     }else if(index %5===0){
       compactador.push('buzz');
@@ -77,20 +72,27 @@ function fizzBuzz(array) {
   return compactador;
 }
 
-
 // Desafio 9
 function encode(string) {
   // seu código aqui
-
-
+  let codString ='';
+  for(let frase of string){
+    codString = string.replace(/a/gi, 1).replace(/e/gi, 2).replace(/i/gi, 3).replace(/o/gi, 4).replace(/u/gi, 5)
+  }
+  return codString;
 }
-function decode() {
+function decode(string) {
   // seu código aqui
+  
+  let decString = string.replace(/1/gi, 'a').replace(/2/gi, 'e').replace(/3/gi, 'i').replace(/4/gi,'o').replace(/5/gi,'u')
+  // return decString;
+  return decString
 }
 
 // Desafio 10
 function techList(array, string) {
   // seu código aqui
+
 }
 
 module.exports = {
