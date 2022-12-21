@@ -13,7 +13,9 @@ function calcArea(base, height) {
 // Desafio 3
 function splitSentence(frase) {
   return frase.split(' ')
+
 }
+
 
 // Desafio 4
 function concatName( array ) {
@@ -120,3 +122,4 @@ module.exports = {
   splitSentence,
   techList,
 };
+
