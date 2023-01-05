@@ -1,13 +1,27 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Playground Functions
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Sobre o projeto
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Aqui foi desenvolvido varias funções com respostas pré-determinadas, onde foi utilizada a lógica de programação para analisar cada problema e resposta esperada, facilitando assim a implementação do código de cada uma das funções.
+
+### Linguagem utilizada:
+
+- JavaScript;
+
+### Como executar
+
+1. Clone o repósitorio:
+
+- Utilizar comando: ```git clone git@github.com:bruna270498/Project-Playground-Functions.git ```
+
+2. Instale as dependências:
+
+- ``ǹpm install ```
+
+3. Ver resultado:
+
+- Dar um ```console.log``` nas resposta no terminal
+
+```bash
+# colaborador
+os testes foram desenvolvidas pela **Trybe**, minha participação foi na criação das funções.
